@@ -13,6 +13,7 @@
 /***************** HEADER *****************/
 header {
 	background-color: var(--backgroundColor1);
+	height:50px;
 }
 
 header a {
@@ -25,13 +26,11 @@ nav {
 }
 
 nav ul {
-	list-style: none;
-}
-
-nav ul li {
-	padding: 0 7%;
-	display: inline;
-	vertical-align: middle;
+	margin-left:5%;
+	width:90%;
+	align-items: center;
+	justify-content: space-between;
+	display:flex;
 }
 
 /***************** MAIN *****************/
@@ -40,7 +39,6 @@ main {
 }
 
 ul li {
-	padding: 0 20%;
 	display: inline;
 }
 
