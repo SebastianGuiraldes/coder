@@ -11,10 +11,6 @@
 }
 
 /***************** HEADER *****************/
-header {
-	background-color: var(--backgroundColor1);
-	height:50px;
-}
 
 header a {
 	color: var(--mainTextColor);
@@ -26,11 +22,16 @@ nav {
 }
 
 nav ul {
+	list-style: none;
 	margin-left:5%;
 	width:90%;
 	align-items: center;
 	justify-content: space-between;
 	display:flex;
+}
+
+.navbar{
+	--bs-navbar-padding-y: 0;
 }
 
 /***************** MAIN *****************/
@@ -81,7 +82,8 @@ h1 {
 }
 
 h2 {
-	margin: 40px 0;
+	margin-top:40px;
+	margin-bottom:20px;
 	font-size: 50px;
 	text-decoration: overline;
 }
@@ -182,6 +184,15 @@ iframe {
 	font-weight: 900;
 	letter-spacing: 4px;
 	font-size: 40px;	
+}
+
+@media screen and (max-width: 425px){
+	h2{
+		font-size:30px;
+	}
+	h3{
+		font-size: 20px;
+	}
 }
 
 /***************** FOOTER *****************/
