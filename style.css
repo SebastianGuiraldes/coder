@@ -81,6 +81,12 @@ h1 {
 	background-position: center;
 }
 
+.h1Prog{
+	background-image: url(img/programacion.png);
+	background-size: cover;
+	background-position: center;
+}
+
 h2 {
 	margin-top:40px;
 	margin-bottom:20px;
