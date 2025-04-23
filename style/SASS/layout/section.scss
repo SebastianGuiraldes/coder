@@ -1,0 +1,27 @@
+section {
+    font-family: "Trirong", sans-serif;
+    width: 100%;
+
+    ul {
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+        list-style: none;
+    }
+
+    p{
+        font-size: 20px;
+        width: 60%;
+        margin: 0 20%;
+        text-align: justify;
+    }
+    .quienesSomos {
+        text-decoration: overline blink;
+        padding-top: 30px;
+        text-align: center;
+        font-weight: 900;
+        letter-spacing: 4px;
+        font-size: 40px;
+    }
+}
