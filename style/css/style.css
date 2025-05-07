@@ -22,6 +22,8 @@ section ul {
 }
 section p {
   font-size: 20px;
+}
+section .texto {
   width: 60%;
   margin: 0 20%;
   text-align: justify;
@@ -83,10 +85,12 @@ h1 {
 
 .h1Mult {
   background-image: url(../../img/multimedios.png);
+  color: rgb(85, 84, 84);
 }
 
 .h1Prog {
   background-image: url(../../img/programacion.png);
+  color: rgb(167, 166, 166);
 }
 
 .h1Historia {
@@ -166,6 +170,21 @@ h3 {
   background: #e0e0e0;
 }
 
+.sectionContainer {
+  align-items: center;
+}
+
+.imagenes {
+  align-items: center;
+  padding: 0;
+  width: 100%;
+}
+.imagenes img {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
 @media screen and (max-width: 768px) {
   .h2mult {
     font-size: 30px;
@@ -177,6 +196,14 @@ h3 {
   }
   h3 {
     font-size: 20px;
+  }
+  section .texto {
+    margin: 0 5%;
+    width: 90%;
+    text-align: center;
+  }
+  section .quienesSomos {
+    font-size: 30px;
   }
 }
 /***************** FOOTER *****************/
